@@ -6,13 +6,14 @@ var helloWorld:String="HelloWorld"
 val FINAL_HELLO_CHINA="HelloChin"//类型推导
 
 
-fun main(args: Array<String>) {//(Array<String> -> Unit)
+fun main(args: Array<String>) {//(Array<String> -> Unit) 没有返回值其实事Unit类型
 
     helloWorld="HelloChina"
     println(FINAL_HELLO_CHINA)
     println("hello ${args[0]}")
 
     println(int2Long(2))
+
 
     println(sum2(1,2))
     println(sum2.invoke(1,2))
@@ -29,7 +30,7 @@ fun forEachTest(args:Array<String>){
 
 fun sum(arg1:Int,arg2:Int)=arg1+arg2
 
-/*匿名函数*/
+/*匿名函数,如果有一个变量接收一个函数，则该函数不需要名字*/
 val int2Long=fun(x:Int):Long{
     return x.toLong()
 }//(Int)->Long
