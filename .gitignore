@@ -32,3 +32,10 @@ hs_err_pid*
 *.iml
 out
 gen
+/out/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+
+/.idea/workspace.xml
