@@ -92,7 +92,7 @@ fun test0(){
 }
 
 fun test2(){
-    val a: Int = 100000
+    val a: Int = 1000000
     print(a == a) // 输出“true”
     val boxedA: Int? = a
     val anotherBoxedA: Int? = a

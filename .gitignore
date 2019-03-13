@@ -38,4 +38,6 @@ gen
 
 # IntelliJ project files
 
-/.idea/workspace.xml
+
+/.idea/
+/.idea/vcs.xml
