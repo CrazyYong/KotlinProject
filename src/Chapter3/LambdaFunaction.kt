@@ -2,6 +2,15 @@ package Chapter3
 
 /**
  * Lambda函数
+ * 写法:{[参数列表]->[函数体,最后一行是返回值]}
+ * val sum = {a:Int,b:Int->a+b}
+ *
+ * ()->Unit 无参，返回值为Unti类型
+ *
+ * (Int)->Int 传入整型，返回一个整型
+ *
+ * (String,(String)->String)->Boolean 传入字符串，Lambda表达式，返回Boolean
+ *
  */
 
 fun fun1(x:Int,y:Int):Int{
