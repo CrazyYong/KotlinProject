@@ -11,6 +11,16 @@ package Chapter3
  *
  * (String,(String)->String)->Boolean 传入字符串，Lambda表达式，返回Boolean
  *
+ * 用()进行调用
+ * 等价于invoke()
+ * 举例：
+ * val sum ={a:Int,b:Int->a+b}
+ * sum(2,3)
+ * sum.invoke(2,3)
+ *
+ * Lambda只有一个参数可默认为it
+ * 函数参数调用时最后一个Lambda可以移出去
+ * 函数只有一个Lambda，调用时小括号可以省略
  */
 
 fun fun1(x:Int,y:Int):Int{
