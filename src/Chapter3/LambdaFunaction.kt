@@ -67,7 +67,7 @@ fun main(args: Array<String>) {
         it.toUpperCase()
     }
     /*将匿名函数作为一个函数参数传入*/
-    "HelloKotlin".upper(fun(str:String):String{
+    val upperStr="HelloKotlin".upper(fun(str:String):String{
         return str.toUpperCase()
     })
 }
