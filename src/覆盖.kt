@@ -27,7 +27,7 @@ class C : A(),B{
 }
 
 fun main() {
-    var c:C=C()
+    val c=C()
     c.test1()
     c.test2()
 }

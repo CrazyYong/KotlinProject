@@ -9,6 +9,8 @@
 
 fun main() {
 println(lock("param1","param2",::getResult))
+    val test1 = Test1()
+    test1.test()
 }
 
 /**
@@ -38,3 +40,4 @@ class Test1{
         println(list.filter(this::isOdd))
     }
 }
+
